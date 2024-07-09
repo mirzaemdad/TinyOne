@@ -1,0 +1,253 @@
+/* extra small devices (portrait phone, less then 576px) */
+@media(max-width:  575.98px){
+   /* common start */
+   body {
+    padding-top: 89px;
+}
+   .common_padding {
+    padding: 50px 0 70px;
+    }
+    /* header start */
+    header {
+        padding: 10px 0;
+    }
+    .menu ul li a {
+        padding: 5px 0px 0px !important;
+        font-size: 20px;
+        text-align: right;
+    }
+    /* slider start */
+    .slider {
+        padding-bottom: 60px;
+    }
+    .c_indicators {
+        bottom: -60px;
+    }
+    .c_indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+    }
+    .s_text {
+        margin-top: 0px;
+    }
+    .s_text h1 {
+        font-size: 25px;
+    }
+    .s_text h2 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .s_text p {
+        margin-bottom: 20px;
+    }
+    .s_icon ul li {
+        margin-right: 15px !important;
+    }
+    .s_icon ul li {
+        font-size: 35px;
+    }
+    /* feature start */
+    .f_h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .f_p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+     /* single item */
+     .f_item {
+        margin-top: 30px;
+    }
+    .a_icon {
+        height: 35px;
+    }
+    .f_text {
+        text-align: center;
+    }
+    .f_text h2 {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .f_text p {
+        letter-spacing: 0px;
+    }
+
+    /* contact start */
+    /* 2nd row */
+    .c_form {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .c_input {
+        height: 45px;
+        padding: 10px 13px;
+    }
+    .c_submit {
+        height: 45px;
+    }
+
+    /* 3rd row */
+    .c_icon li {
+        margin-right: 20px !important;
+    }
+    .c_i {
+        font-size: 35px;
+    }
+    /* footer start */
+    footer {
+        padding-bottom: 70px;
+    }
+    .f_1 {
+        text-align: center;
+        
+    }
+    .f_2 {
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+/*  small devices (landscape phones, 768px and up) */
+@media(min-width:  576px) and (max-width: 767.98px){
+    /* common start */
+    .common_padding{
+            padding: 50px 0 70px;
+    }
+    /* header start */
+    .menu ul li a {
+        padding: 5px 0px 0px !important;
+        font-size: 20px;
+        text-align: right;
+    }
+    /* slider start */
+    .slider {
+        padding-bottom: 60px;
+    }
+    .c_indicators {
+        bottom: -80px;
+    }
+    .c_indicators [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+    .s_text {
+        margin-top: 0px;
+    }
+    .s_text h1 {
+        font-size: 25px;
+    }
+    .s_text h2 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .s_text p {
+        margin-bottom: 20px;
+    }
+    .s_icon ul li {
+        margin-right: 20px !important;
+    }
+    .s_icon ul li {
+        font-size: 35px;
+    }
+    /* feature start */
+    .f_h1 {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+    .f_p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    /* single item */
+    .f_item {
+        margin-top: 30px;
+    }
+    .a_icon {
+        height: 35px;
+    }
+    .f_text {
+        text-align: center;
+    }
+    .f_text h2 {
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    .f_text p {
+        letter-spacing: 0px;
+    }
+    /* contact start */ 
+
+    /* 2nd row */
+    .c_form {
+        margin-top: 35px;
+        margin-bottom: 40px;
+    }
+    .c_input {
+        height: 45px;
+        padding: 10px 13px;
+    }
+    .c_submit {
+        height: 45px;
+    }
+    /* 3rd row */
+    .c_icon li {
+        margin-right: 25px !important;
+    }
+    .c_i {
+        font-size: 38px;
+    }
+    /* footer start */
+    footer {
+        padding-bottom: 70px;
+    }
+    .f_1 {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .f_2 {
+        text-align: center;
+    }
+    
+}
+/*  medium devices (tablets, 768px and up) */
+@media(min-width:  768px) and (max-width: 991.98px){
+    /* common start */
+    .common_padding {
+        padding: 80px 0 100px;
+    }
+    /* header start */
+    .menu ul li a {
+        padding: 10px 0px 0px !important;
+        text-align: right;
+    }
+    /* feature start */
+    
+    /* singl item start */
+    .f_item {
+        margin-top: 50px;
+    }
+    /* contact form start */
+    /* 2nd row */
+    .c_form {
+        margin-top: 65px;
+        margin-bottom: 70px;
+    }
+    /* footer start */
+    footer {
+        padding-bottom: 100px;
+    }
+    
+}
+/* Large devices (desktops, 992px and up) */
+@media(min-width: 992px) and (max-width: 1199.98px){
+   
+}
+/* Extra large devices (desktops, 1200px and up) */
+@media(min-width: 1200px) and (max-width: 1399.98px){
+    
+}
+/* Extra extra large devices (desktops, 1400px and up) */
+@media(max-width: 1400px){
+
+}
